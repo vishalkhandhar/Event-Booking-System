@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B9E0C7FED555EEFAEF78D0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0A0C0C1D3293496EAC2A7D6A /* HankenGrotesk-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29073B2C418D4CF5A0203992 /* HankenGrotesk-ExtraLightItalic.ttf */; };
+		0A7F06A9DFBA4C02B06CBFA8 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C49D7146C5746E98C962D3F /* Montserrat-Bold.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-EventBooking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-EventBooking.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		151B268FF8A94B8790A004C9 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0566A93E7DC4EFC9D10A5C8 /* Montserrat-ExtraBold.ttf */; };
+		18D9C3314622427B855AA3A8 /* HankenGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4B145DABD94446A88F45B61 /* HankenGrotesk-SemiBold.ttf */; };
+		1BA7E884A8B54A788D7A6AA3 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CEB948B20B446FB1AB70F4 /* Montserrat-ExtraBoldItalic.ttf */; };
+		1C6306D276C945738F39192C /* HankenGrotesk-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AB0E15206F34E6087868CE9 /* HankenGrotesk-MediumItalic.ttf */; };
+		21280E430AD449489328CE9D /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 274AA487A18442CEBB7B405B /* Montserrat-SemiBoldItalic.ttf */; };
+		21352D67B4E7409BAC13E926 /* Inter_28pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3EFBD800DD04F14A3CECFE7 /* Inter_28pt-ExtraLightItalic.ttf */; };
+		2268B3F28A2E4D33BE6038BC /* Inter_18pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7705900DED64573A245879F /* Inter_18pt-Thin.ttf */; };
+		229483756A1B43AC943457EE /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA57019CDA7E4297B97895B2 /* Montserrat-SemiBold.ttf */; };
+		2303C9B24AAC4340ABDBB4A7 /* Inter_28pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FF0B7D7FD416E86B5AB95 /* Inter_28pt-SemiBoldItalic.ttf */; };
+		2E6031869B1646CDBED93AD0 /* Inter_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A31B81F4C175470EB4547646 /* Inter_18pt-ExtraBold.ttf */; };
+		30442472898F4FCBA502DF95 /* HankenGrotesk-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8525A6663841AAA0EEC1AB /* HankenGrotesk-ThinItalic.ttf */; };
+		336B66650ADE4D2DA3D7F3B1 /* HankenGrotesk-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1789D6718944D9897C0134B /* HankenGrotesk-SemiBoldItalic.ttf */; };
+		33F63AA2D64743A2BD796458 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57E6282FBE024941801A1F5D /* Montserrat-Regular.ttf */; };
+		38D9FBA6375A4188B7329F39 /* Inter_18pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A3A6D440A3E43528976A178 /* Inter_18pt-LightItalic.ttf */; };
+		3C310229125149C8A73FB108 /* Inter_18pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B74A9B96BD8443E79C2223C6 /* Inter_18pt-SemiBoldItalic.ttf */; };
+		41495A41B57E4775A33C316A /* Inter_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52A72813E3D4EF78BE4F50A /* Inter_18pt-Medium.ttf */; };
+		417EE6829AC84D7A92DBE838 /* HankenGrotesk-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C6D74551A84E48B8FD6883 /* HankenGrotesk-ExtraBoldItalic.ttf */; };
+		483A2404C4014F0A932BCE49 /* Inter_18pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE75A614EC045969EC3A929 /* Inter_18pt-MediumItalic.ttf */; };
+		4D191DCBAC174C569C253BF5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA2C73A46D943DCB0213877 /* Montserrat-Light.ttf */; };
+		4E5F83FA442849F8BAD77814 /* HankenGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B74E8EE7580D4F83BAFB884A /* HankenGrotesk-Light.ttf */; };
+		4E8AC3A53C0F439EAF9245F1 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDCD80F9B8A3442C9E2002D7 /* Montserrat-ThinItalic.ttf */; };
+		4ED15CEB31734D00BEB0581D /* Inter_28pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DC15AA8F6F04D8A9F72AB98 /* Inter_28pt-ExtraBold.ttf */; };
+		5413B3E597A84E0492CEC955 /* Inter_28pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2714AC77F0E4FFD9A6BA1CB /* Inter_28pt-Medium.ttf */; };
+		542F6C78A8634C87A998754E /* HankenGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B466EC180409435AAF64988D /* HankenGrotesk-Regular.ttf */; };
+		5471100EC71F485DA2A602FD /* Inter_28pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2AFEADADC84538A39AA6A3 /* Inter_28pt-BoldItalic.ttf */; };
+		56273D0B9BA04C9291F0B59F /* Inter_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D732F354F74F498DBB307543 /* Inter_18pt-Light.ttf */; };
+		5890180C68B34D6296F1AD8F /* HankenGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA3FE51A49CB4CFF9E880A1E /* HankenGrotesk-Bold.ttf */; };
+		5D4A88785B6944D79F689F35 /* Inter_18pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C31DF70B94E4CA1AB17F0D7 /* Inter_18pt-ExtraLightItalic.ttf */; };
+		5EC471C627B14BFB85021A54 /* HankenGrotesk-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACE24A337AD940BC829AB194 /* HankenGrotesk-BoldItalic.ttf */; };
+		5FFBAF4DE7F845C48D9098AB /* HankenGrotesk-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C79AE903EADA4D0283772EC1 /* HankenGrotesk-Italic.ttf */; };
+		6C833B8E57D542CC8E0EF024 /* Inter_18pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E354B787DDB44E74982C60B6 /* Inter_18pt-BlackItalic.ttf */; };
+		6E99FD37DD8847A698B9D1AE /* Inter_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4A7FBFAA94A878AA778CB /* Inter_18pt-Regular.ttf */; };
+		705D46DAFBEB473D8561E326 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42A98CC4CF7C49EA99B0BA98 /* Montserrat-Medium.ttf */; };
+		7085A3554BD84C81AA26C7B9 /* Inter_28pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B9B88E143A74361AA0776F7 /* Inter_28pt-Thin.ttf */; };
+		70CEEED4F4004369BBB9DAA8 /* HankenGrotesk-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849CB59360E44BA7A555E904 /* HankenGrotesk-ExtraBold.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7A939DBFAC864ACBBD5DCFDE /* Inter_28pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4480052A1AF45E0A9264ACC /* Inter_28pt-ExtraBoldItalic.ttf */; };
+		7FA578B56A3E4E85AE7A6217 /* Inter_28pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BDBD45AFFE4F9FAD2645EA /* Inter_28pt-BlackItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		829D1CEB6D0F4164993BD323 /* Inter_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D7BB6E1075C4BC1863688D7 /* Inter_18pt-SemiBold.ttf */; };
+		85A02273512B45C99BA83318 /* Inter_28pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9318E75C6C784C2BA97E71C5 /* Inter_28pt-Regular.ttf */; };
+		8EF6B0CC16344EF6A76B6D18 /* Inter_28pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3026EE43F0942FE9C604353 /* Inter_28pt-ExtraLight.ttf */; };
+		940A82094CA84628B9DB0087 /* Inter_28pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB75C04A2718421DB359E6A0 /* Inter_28pt-Light.ttf */; };
+		9748C423B3C7487DBCB4AFA2 /* HankenGrotesk-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E2AD0078444463819AFEBD /* HankenGrotesk-ExtraLight.ttf */; };
+		A7640177FA86479D8FC57BF3 /* HankenGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2731AA0A36DB4B38B69E729E /* HankenGrotesk-Medium.ttf */; };
+		ADD18B66137546C5BEECB255 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB5D7D82C8405CBCCC3A39 /* Montserrat-BoldItalic.ttf */; };
+		ADEA2D4CC1864E328156ADD3 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53E38E2EE18E4C4795EA4E17 /* Montserrat-ExtraLight.ttf */; };
+		AE067D57B9D84A7B95FF91A6 /* HankenGrotesk-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06B795D19B1473E9031DA9B /* HankenGrotesk-Thin.ttf */; };
+		B06F49A5A13A4842921173AD /* Inter_28pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A473C6F4D8AC42658A84DBB9 /* Inter_28pt-LightItalic.ttf */; };
+		B4010F991F96498B8CF3EA97 /* Inter_18pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4832CF6C033A445182717293 /* Inter_18pt-BoldItalic.ttf */; };
+		B945CB8461684740B0A6BF4B /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30F1DE3D2C994B74AA803F5C /* Montserrat-Thin.ttf */; };
+		BBE507A1F8784081B2E7F5CF /* Inter_28pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E01EE6884B4F26880D3701 /* Inter_28pt-Italic.ttf */; };
+		BCE6ADA8287F4A26A7BEFE54 /* Inter_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BDA42910C9F43E6BB0CCA1D /* Inter_18pt-Black.ttf */; };
+		C549D4FDA39F430DB379AA3B /* Inter_28pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F509BE32494445F690E7F569 /* Inter_28pt-Black.ttf */; };
+		C565CED85D47490DAA9E748B /* Inter_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A91FB30759BB467C9C5107AB /* Inter_18pt-Italic.ttf */; };
+		CAC60D7AB2154A67AB292C09 /* Inter_28pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4874BA33D6410B9E475033 /* Inter_28pt-Bold.ttf */; };
+		D06F1E1CDE6549F48F41BB73 /* HankenGrotesk-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA56895D9A44D8197085716 /* HankenGrotesk-LightItalic.ttf */; };
+		D9B0BBB8CFBB497B83D68D6B /* Inter_18pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4327B7828894FA29916DBCD /* Inter_18pt-ExtraLight.ttf */; };
+		DA8FDE2A4DDB431B94A14D90 /* Inter_18pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF1F42E3AE74165A4A0A8FB /* Inter_18pt-ExtraBoldItalic.ttf */; };
+		DCA4C0E6DB6A4398B5D0DBDA /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D11D6D329D4F308C66F1D0 /* Montserrat-MediumItalic.ttf */; };
+		DD7FE5995C6541219A4275CF /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F17CE1F1B004C4CA54C06EE /* Montserrat-LightItalic.ttf */; };
+		E077135057834731AADE317A /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48A88AB2B4834AEA924BF21D /* Montserrat-ExtraLightItalic.ttf */; };
+		E3E81FC3399048C6AAD022FB /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B03CFB65FE064CA7BB4CA516 /* Montserrat-Italic.ttf */; };
+		E8A971B63A004CC5B835AC51 /* Inter_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B540985D3E8246AFA870D4A4 /* Inter_18pt-Bold.ttf */; };
+		EA2A49F2476A45308B17954E /* Inter_28pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F9386E88C5F4285808B1DB2 /* Inter_28pt-ThinItalic.ttf */; };
+		F6A180CFB218429995BFCAC3 /* Inter_18pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C00DA08FEB4DC3A6686FA0 /* Inter_18pt-ThinItalic.ttf */; };
+		FA129E3F9B24435A8B686C3C /* Inter_28pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C608B327C0E48EC96B42100 /* Inter_28pt-MediumItalic.ttf */; };
+		FCB7A89F35D143BD9EE10FA5 /* Inter_28pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671DE921E3EF499A9B973438 /* Inter_28pt-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AEB5D7D82C8405CBCCC3A39 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EventBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EventBooking/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EventBooking/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = EventBooking/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		18CEB948B20B446FB1AB70F4 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2731AA0A36DB4B38B69E729E /* HankenGrotesk-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-Medium.ttf"; path = "../assets/fonts/HankenGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		274AA487A18442CEBB7B405B /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		29073B2C418D4CF5A0203992 /* HankenGrotesk-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-ExtraLightItalic.ttf"; path = "../assets/fonts/HankenGrotesk-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2B9B88E143A74361AA0776F7 /* Inter_28pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Thin.ttf"; path = "../assets/fonts/Inter_28pt-Thin.ttf"; sourceTree = "<group>"; };
+		2BA56895D9A44D8197085716 /* HankenGrotesk-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-LightItalic.ttf"; path = "../assets/fonts/HankenGrotesk-LightItalic.ttf"; sourceTree = "<group>"; };
+		2D7BB6E1075C4BC1863688D7 /* Inter_18pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-SemiBold.ttf"; path = "../assets/fonts/Inter_18pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		2FA2C73A46D943DCB0213877 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		2FE75A614EC045969EC3A929 /* Inter_18pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-MediumItalic.ttf"; path = "../assets/fonts/Inter_18pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		30F1DE3D2C994B74AA803F5C /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		3AB0E15206F34E6087868CE9 /* HankenGrotesk-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-MediumItalic.ttf"; path = "../assets/fonts/HankenGrotesk-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3AB4A7FBFAA94A878AA778CB /* Inter_18pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Regular.ttf"; path = "../assets/fonts/Inter_18pt-Regular.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-EventBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventBooking.debug.xcconfig"; path = "Target Support Files/Pods-EventBooking/Pods-EventBooking.debug.xcconfig"; sourceTree = "<group>"; };
+		3C608B327C0E48EC96B42100 /* Inter_28pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-MediumItalic.ttf"; path = "../assets/fonts/Inter_28pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		42A98CC4CF7C49EA99B0BA98 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		44C00DA08FEB4DC3A6686FA0 /* Inter_18pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-ThinItalic.ttf"; path = "../assets/fonts/Inter_18pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4832CF6C033A445182717293 /* Inter_18pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-BoldItalic.ttf"; path = "../assets/fonts/Inter_18pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		48A88AB2B4834AEA924BF21D /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		53E38E2EE18E4C4795EA4E17 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-EventBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventBooking.release.xcconfig"; path = "Target Support Files/Pods-EventBooking/Pods-EventBooking.release.xcconfig"; sourceTree = "<group>"; };
+		57E6282FBE024941801A1F5D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		5C31DF70B94E4CA1AB17F0D7 /* Inter_18pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-ExtraLightItalic.ttf"; path = "../assets/fonts/Inter_18pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-EventBooking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventBooking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		671DE921E3EF499A9B973438 /* Inter_28pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-SemiBold.ttf"; path = "../assets/fonts/Inter_28pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		6A3A6D440A3E43528976A178 /* Inter_18pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-LightItalic.ttf"; path = "../assets/fonts/Inter_18pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = EventBooking/AppDelegate.swift; sourceTree = "<group>"; };
+		7BDA42910C9F43E6BB0CCA1D /* Inter_18pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Black.ttf"; path = "../assets/fonts/Inter_18pt-Black.ttf"; sourceTree = "<group>"; };
+		7C49D7146C5746E98C962D3F /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		7F9386E88C5F4285808B1DB2 /* Inter_28pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-ThinItalic.ttf"; path = "../assets/fonts/Inter_28pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EventBooking/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849CB59360E44BA7A555E904 /* HankenGrotesk-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-ExtraBold.ttf"; path = "../assets/fonts/HankenGrotesk-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8DC15AA8F6F04D8A9F72AB98 /* Inter_28pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-ExtraBold.ttf"; path = "../assets/fonts/Inter_28pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8F17CE1F1B004C4CA54C06EE /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		90D11D6D329D4F308C66F1D0 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9318E75C6C784C2BA97E71C5 /* Inter_28pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Regular.ttf"; path = "../assets/fonts/Inter_28pt-Regular.ttf"; sourceTree = "<group>"; };
+		9B2AFEADADC84538A39AA6A3 /* Inter_28pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-BoldItalic.ttf"; path = "../assets/fonts/Inter_28pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9F5FF0B7D7FD416E86B5AB95 /* Inter_28pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Inter_28pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A3026EE43F0942FE9C604353 /* Inter_28pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-ExtraLight.ttf"; path = "../assets/fonts/Inter_28pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A31B81F4C175470EB4547646 /* Inter_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-ExtraBold.ttf"; path = "../assets/fonts/Inter_18pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A473C6F4D8AC42658A84DBB9 /* Inter_28pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-LightItalic.ttf"; path = "../assets/fonts/Inter_28pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		A91FB30759BB467C9C5107AB /* Inter_18pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Italic.ttf"; path = "../assets/fonts/Inter_18pt-Italic.ttf"; sourceTree = "<group>"; };
+		ACE24A337AD940BC829AB194 /* HankenGrotesk-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-BoldItalic.ttf"; path = "../assets/fonts/HankenGrotesk-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AF4874BA33D6410B9E475033 /* Inter_28pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Bold.ttf"; path = "../assets/fonts/Inter_28pt-Bold.ttf"; sourceTree = "<group>"; };
+		B03CFB65FE064CA7BB4CA516 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		B0566A93E7DC4EFC9D10A5C8 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B1789D6718944D9897C0134B /* HankenGrotesk-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-SemiBoldItalic.ttf"; path = "../assets/fonts/HankenGrotesk-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B2714AC77F0E4FFD9A6BA1CB /* Inter_28pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Medium.ttf"; path = "../assets/fonts/Inter_28pt-Medium.ttf"; sourceTree = "<group>"; };
+		B4327B7828894FA29916DBCD /* Inter_18pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-ExtraLight.ttf"; path = "../assets/fonts/Inter_18pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B4480052A1AF45E0A9264ACC /* Inter_28pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Inter_28pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B466EC180409435AAF64988D /* HankenGrotesk-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-Regular.ttf"; path = "../assets/fonts/HankenGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		B540985D3E8246AFA870D4A4 /* Inter_18pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Bold.ttf"; path = "../assets/fonts/Inter_18pt-Bold.ttf"; sourceTree = "<group>"; };
+		B74A9B96BD8443E79C2223C6 /* Inter_18pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-SemiBoldItalic.ttf"; path = "../assets/fonts/Inter_18pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B74E8EE7580D4F83BAFB884A /* HankenGrotesk-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-Light.ttf"; path = "../assets/fonts/HankenGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		B7705900DED64573A245879F /* Inter_18pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Thin.ttf"; path = "../assets/fonts/Inter_18pt-Thin.ttf"; sourceTree = "<group>"; };
+		B9C6D74551A84E48B8FD6883 /* HankenGrotesk-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-ExtraBoldItalic.ttf"; path = "../assets/fonts/HankenGrotesk-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BA3FE51A49CB4CFF9E880A1E /* HankenGrotesk-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-Bold.ttf"; path = "../assets/fonts/HankenGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		C1E01EE6884B4F26880D3701 /* Inter_28pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Italic.ttf"; path = "../assets/fonts/Inter_28pt-Italic.ttf"; sourceTree = "<group>"; };
+		C79AE903EADA4D0283772EC1 /* HankenGrotesk-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-Italic.ttf"; path = "../assets/fonts/HankenGrotesk-Italic.ttf"; sourceTree = "<group>"; };
+		CB75C04A2718421DB359E6A0 /* Inter_28pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Light.ttf"; path = "../assets/fonts/Inter_28pt-Light.ttf"; sourceTree = "<group>"; };
+		CE8525A6663841AAA0EEC1AB /* HankenGrotesk-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-ThinItalic.ttf"; path = "../assets/fonts/HankenGrotesk-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D06B795D19B1473E9031DA9B /* HankenGrotesk-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-Thin.ttf"; path = "../assets/fonts/HankenGrotesk-Thin.ttf"; sourceTree = "<group>"; };
+		D732F354F74F498DBB307543 /* Inter_18pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Light.ttf"; path = "../assets/fonts/Inter_18pt-Light.ttf"; sourceTree = "<group>"; };
+		DA57019CDA7E4297B97895B2 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		DDCD80F9B8A3442C9E2002D7 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E0BDBD45AFFE4F9FAD2645EA /* Inter_28pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-BlackItalic.ttf"; path = "../assets/fonts/Inter_28pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E354B787DDB44E74982C60B6 /* Inter_18pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-BlackItalic.ttf"; path = "../assets/fonts/Inter_18pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E3EFBD800DD04F14A3CECFE7 /* Inter_28pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-ExtraLightItalic.ttf"; path = "../assets/fonts/Inter_28pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E4B145DABD94446A88F45B61 /* HankenGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-SemiBold.ttf"; path = "../assets/fonts/HankenGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		E52A72813E3D4EF78BE4F50A /* Inter_18pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-Medium.ttf"; path = "../assets/fonts/Inter_18pt-Medium.ttf"; sourceTree = "<group>"; };
+		E7E2AD0078444463819AFEBD /* HankenGrotesk-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "HankenGrotesk-ExtraLight.ttf"; path = "../assets/fonts/HankenGrotesk-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDF1F42E3AE74165A4A0A8FB /* Inter_18pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_18pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/Inter_18pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F509BE32494445F690E7F569 /* Inter_28pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter_28pt-Black.ttf"; path = "../assets/fonts/Inter_28pt-Black.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-EventBooking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2EB49719644D1E8699B2BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA3FE51A49CB4CFF9E880A1E /* HankenGrotesk-Bold.ttf */,
+				ACE24A337AD940BC829AB194 /* HankenGrotesk-BoldItalic.ttf */,
+				849CB59360E44BA7A555E904 /* HankenGrotesk-ExtraBold.ttf */,
+				B9C6D74551A84E48B8FD6883 /* HankenGrotesk-ExtraBoldItalic.ttf */,
+				E7E2AD0078444463819AFEBD /* HankenGrotesk-ExtraLight.ttf */,
+				29073B2C418D4CF5A0203992 /* HankenGrotesk-ExtraLightItalic.ttf */,
+				C79AE903EADA4D0283772EC1 /* HankenGrotesk-Italic.ttf */,
+				B74E8EE7580D4F83BAFB884A /* HankenGrotesk-Light.ttf */,
+				2BA56895D9A44D8197085716 /* HankenGrotesk-LightItalic.ttf */,
+				2731AA0A36DB4B38B69E729E /* HankenGrotesk-Medium.ttf */,
+				3AB0E15206F34E6087868CE9 /* HankenGrotesk-MediumItalic.ttf */,
+				B466EC180409435AAF64988D /* HankenGrotesk-Regular.ttf */,
+				E4B145DABD94446A88F45B61 /* HankenGrotesk-SemiBold.ttf */,
+				B1789D6718944D9897C0134B /* HankenGrotesk-SemiBoldItalic.ttf */,
+				D06B795D19B1473E9031DA9B /* HankenGrotesk-Thin.ttf */,
+				CE8525A6663841AAA0EEC1AB /* HankenGrotesk-ThinItalic.ttf */,
+				7BDA42910C9F43E6BB0CCA1D /* Inter_18pt-Black.ttf */,
+				E354B787DDB44E74982C60B6 /* Inter_18pt-BlackItalic.ttf */,
+				B540985D3E8246AFA870D4A4 /* Inter_18pt-Bold.ttf */,
+				4832CF6C033A445182717293 /* Inter_18pt-BoldItalic.ttf */,
+				A31B81F4C175470EB4547646 /* Inter_18pt-ExtraBold.ttf */,
+				EDF1F42E3AE74165A4A0A8FB /* Inter_18pt-ExtraBoldItalic.ttf */,
+				B4327B7828894FA29916DBCD /* Inter_18pt-ExtraLight.ttf */,
+				5C31DF70B94E4CA1AB17F0D7 /* Inter_18pt-ExtraLightItalic.ttf */,
+				A91FB30759BB467C9C5107AB /* Inter_18pt-Italic.ttf */,
+				D732F354F74F498DBB307543 /* Inter_18pt-Light.ttf */,
+				6A3A6D440A3E43528976A178 /* Inter_18pt-LightItalic.ttf */,
+				E52A72813E3D4EF78BE4F50A /* Inter_18pt-Medium.ttf */,
+				2FE75A614EC045969EC3A929 /* Inter_18pt-MediumItalic.ttf */,
+				3AB4A7FBFAA94A878AA778CB /* Inter_18pt-Regular.ttf */,
+				2D7BB6E1075C4BC1863688D7 /* Inter_18pt-SemiBold.ttf */,
+				B74A9B96BD8443E79C2223C6 /* Inter_18pt-SemiBoldItalic.ttf */,
+				B7705900DED64573A245879F /* Inter_18pt-Thin.ttf */,
+				44C00DA08FEB4DC3A6686FA0 /* Inter_18pt-ThinItalic.ttf */,
+				F509BE32494445F690E7F569 /* Inter_28pt-Black.ttf */,
+				E0BDBD45AFFE4F9FAD2645EA /* Inter_28pt-BlackItalic.ttf */,
+				AF4874BA33D6410B9E475033 /* Inter_28pt-Bold.ttf */,
+				9B2AFEADADC84538A39AA6A3 /* Inter_28pt-BoldItalic.ttf */,
+				8DC15AA8F6F04D8A9F72AB98 /* Inter_28pt-ExtraBold.ttf */,
+				B4480052A1AF45E0A9264ACC /* Inter_28pt-ExtraBoldItalic.ttf */,
+				A3026EE43F0942FE9C604353 /* Inter_28pt-ExtraLight.ttf */,
+				E3EFBD800DD04F14A3CECFE7 /* Inter_28pt-ExtraLightItalic.ttf */,
+				C1E01EE6884B4F26880D3701 /* Inter_28pt-Italic.ttf */,
+				CB75C04A2718421DB359E6A0 /* Inter_28pt-Light.ttf */,
+				A473C6F4D8AC42658A84DBB9 /* Inter_28pt-LightItalic.ttf */,
+				B2714AC77F0E4FFD9A6BA1CB /* Inter_28pt-Medium.ttf */,
+				3C608B327C0E48EC96B42100 /* Inter_28pt-MediumItalic.ttf */,
+				9318E75C6C784C2BA97E71C5 /* Inter_28pt-Regular.ttf */,
+				671DE921E3EF499A9B973438 /* Inter_28pt-SemiBold.ttf */,
+				9F5FF0B7D7FD416E86B5AB95 /* Inter_28pt-SemiBoldItalic.ttf */,
+				2B9B88E143A74361AA0776F7 /* Inter_28pt-Thin.ttf */,
+				7F9386E88C5F4285808B1DB2 /* Inter_28pt-ThinItalic.ttf */,
+				7C49D7146C5746E98C962D3F /* Montserrat-Bold.ttf */,
+				0AEB5D7D82C8405CBCCC3A39 /* Montserrat-BoldItalic.ttf */,
+				B0566A93E7DC4EFC9D10A5C8 /* Montserrat-ExtraBold.ttf */,
+				18CEB948B20B446FB1AB70F4 /* Montserrat-ExtraBoldItalic.ttf */,
+				53E38E2EE18E4C4795EA4E17 /* Montserrat-ExtraLight.ttf */,
+				48A88AB2B4834AEA924BF21D /* Montserrat-ExtraLightItalic.ttf */,
+				B03CFB65FE064CA7BB4CA516 /* Montserrat-Italic.ttf */,
+				2FA2C73A46D943DCB0213877 /* Montserrat-Light.ttf */,
+				8F17CE1F1B004C4CA54C06EE /* Montserrat-LightItalic.ttf */,
+				42A98CC4CF7C49EA99B0BA98 /* Montserrat-Medium.ttf */,
+				90D11D6D329D4F308C66F1D0 /* Montserrat-MediumItalic.ttf */,
+				57E6282FBE024941801A1F5D /* Montserrat-Regular.ttf */,
+				DA57019CDA7E4297B97895B2 /* Montserrat-SemiBold.ttf */,
+				274AA487A18442CEBB7B405B /* Montserrat-SemiBoldItalic.ttf */,
+				30F1DE3D2C994B74AA803F5C /* Montserrat-Thin.ttf */,
+				DDCD80F9B8A3442C9E2002D7 /* Montserrat-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* EventBooking */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = EventBooking;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-EventBooking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* EventBooking */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0B2EB49719644D1E8699B2BF /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* EventBooking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-EventBooking.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-EventBooking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* EventBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EventBooking" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventBooking;
+			productName = EventBooking;
+			productReference = 13B07F961A680F5B00A75B9A /* EventBooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EventBooking" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* EventBooking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				09B9E0C7FED555EEFAEF78D0 /* PrivacyInfo.xcprivacy in Resources */,
+				5890180C68B34D6296F1AD8F /* HankenGrotesk-Bold.ttf in Resources */,
+				5EC471C627B14BFB85021A54 /* HankenGrotesk-BoldItalic.ttf in Resources */,
+				70CEEED4F4004369BBB9DAA8 /* HankenGrotesk-ExtraBold.ttf in Resources */,
+				417EE6829AC84D7A92DBE838 /* HankenGrotesk-ExtraBoldItalic.ttf in Resources */,
+				9748C423B3C7487DBCB4AFA2 /* HankenGrotesk-ExtraLight.ttf in Resources */,
+				0A0C0C1D3293496EAC2A7D6A /* HankenGrotesk-ExtraLightItalic.ttf in Resources */,
+				5FFBAF4DE7F845C48D9098AB /* HankenGrotesk-Italic.ttf in Resources */,
+				4E5F83FA442849F8BAD77814 /* HankenGrotesk-Light.ttf in Resources */,
+				D06F1E1CDE6549F48F41BB73 /* HankenGrotesk-LightItalic.ttf in Resources */,
+				A7640177FA86479D8FC57BF3 /* HankenGrotesk-Medium.ttf in Resources */,
+				1C6306D276C945738F39192C /* HankenGrotesk-MediumItalic.ttf in Resources */,
+				542F6C78A8634C87A998754E /* HankenGrotesk-Regular.ttf in Resources */,
+				18D9C3314622427B855AA3A8 /* HankenGrotesk-SemiBold.ttf in Resources */,
+				336B66650ADE4D2DA3D7F3B1 /* HankenGrotesk-SemiBoldItalic.ttf in Resources */,
+				AE067D57B9D84A7B95FF91A6 /* HankenGrotesk-Thin.ttf in Resources */,
+				30442472898F4FCBA502DF95 /* HankenGrotesk-ThinItalic.ttf in Resources */,
+				BCE6ADA8287F4A26A7BEFE54 /* Inter_18pt-Black.ttf in Resources */,
+				6C833B8E57D542CC8E0EF024 /* Inter_18pt-BlackItalic.ttf in Resources */,
+				E8A971B63A004CC5B835AC51 /* Inter_18pt-Bold.ttf in Resources */,
+				B4010F991F96498B8CF3EA97 /* Inter_18pt-BoldItalic.ttf in Resources */,
+				2E6031869B1646CDBED93AD0 /* Inter_18pt-ExtraBold.ttf in Resources */,
+				DA8FDE2A4DDB431B94A14D90 /* Inter_18pt-ExtraBoldItalic.ttf in Resources */,
+				D9B0BBB8CFBB497B83D68D6B /* Inter_18pt-ExtraLight.ttf in Resources */,
+				5D4A88785B6944D79F689F35 /* Inter_18pt-ExtraLightItalic.ttf in Resources */,
+				C565CED85D47490DAA9E748B /* Inter_18pt-Italic.ttf in Resources */,
+				56273D0B9BA04C9291F0B59F /* Inter_18pt-Light.ttf in Resources */,
+				38D9FBA6375A4188B7329F39 /* Inter_18pt-LightItalic.ttf in Resources */,
+				41495A41B57E4775A33C316A /* Inter_18pt-Medium.ttf in Resources */,
+				483A2404C4014F0A932BCE49 /* Inter_18pt-MediumItalic.ttf in Resources */,
+				6E99FD37DD8847A698B9D1AE /* Inter_18pt-Regular.ttf in Resources */,
+				829D1CEB6D0F4164993BD323 /* Inter_18pt-SemiBold.ttf in Resources */,
+				3C310229125149C8A73FB108 /* Inter_18pt-SemiBoldItalic.ttf in Resources */,
+				2268B3F28A2E4D33BE6038BC /* Inter_18pt-Thin.ttf in Resources */,
+				F6A180CFB218429995BFCAC3 /* Inter_18pt-ThinItalic.ttf in Resources */,
+				C549D4FDA39F430DB379AA3B /* Inter_28pt-Black.ttf in Resources */,
+				7FA578B56A3E4E85AE7A6217 /* Inter_28pt-BlackItalic.ttf in Resources */,
+				CAC60D7AB2154A67AB292C09 /* Inter_28pt-Bold.ttf in Resources */,
+				5471100EC71F485DA2A602FD /* Inter_28pt-BoldItalic.ttf in Resources */,
+				4ED15CEB31734D00BEB0581D /* Inter_28pt-ExtraBold.ttf in Resources */,
+				7A939DBFAC864ACBBD5DCFDE /* Inter_28pt-ExtraBoldItalic.ttf in Resources */,
+				8EF6B0CC16344EF6A76B6D18 /* Inter_28pt-ExtraLight.ttf in Resources */,
+				21352D67B4E7409BAC13E926 /* Inter_28pt-ExtraLightItalic.ttf in Resources */,
+				BBE507A1F8784081B2E7F5CF /* Inter_28pt-Italic.ttf in Resources */,
+				940A82094CA84628B9DB0087 /* Inter_28pt-Light.ttf in Resources */,
+				B06F49A5A13A4842921173AD /* Inter_28pt-LightItalic.ttf in Resources */,
+				5413B3E597A84E0492CEC955 /* Inter_28pt-Medium.ttf in Resources */,
+				FA129E3F9B24435A8B686C3C /* Inter_28pt-MediumItalic.ttf in Resources */,
+				85A02273512B45C99BA83318 /* Inter_28pt-Regular.ttf in Resources */,
+				FCB7A89F35D143BD9EE10FA5 /* Inter_28pt-SemiBold.ttf in Resources */,
+				2303C9B24AAC4340ABDBB4A7 /* Inter_28pt-SemiBoldItalic.ttf in Resources */,
+				7085A3554BD84C81AA26C7B9 /* Inter_28pt-Thin.ttf in Resources */,
+				EA2A49F2476A45308B17954E /* Inter_28pt-ThinItalic.ttf in Resources */,
+				0A7F06A9DFBA4C02B06CBFA8 /* Montserrat-Bold.ttf in Resources */,
+				ADD18B66137546C5BEECB255 /* Montserrat-BoldItalic.ttf in Resources */,
+				151B268FF8A94B8790A004C9 /* Montserrat-ExtraBold.ttf in Resources */,
+				1BA7E884A8B54A788D7A6AA3 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				ADEA2D4CC1864E328156ADD3 /* Montserrat-ExtraLight.ttf in Resources */,
+				E077135057834731AADE317A /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				E3E81FC3399048C6AAD022FB /* Montserrat-Italic.ttf in Resources */,
+				4D191DCBAC174C569C253BF5 /* Montserrat-Light.ttf in Resources */,
+				DD7FE5995C6541219A4275CF /* Montserrat-LightItalic.ttf in Resources */,
+				705D46DAFBEB473D8561E326 /* Montserrat-Medium.ttf in Resources */,
+				DCA4C0E6DB6A4398B5D0DBDA /* Montserrat-MediumItalic.ttf in Resources */,
+				33F63AA2D64743A2BD796458 /* Montserrat-Regular.ttf in Resources */,
+				229483756A1B43AC943457EE /* Montserrat-SemiBold.ttf in Resources */,
+				21280E430AD449489328CE9D /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				B945CB8461684740B0A6BF4B /* Montserrat-Thin.ttf in Resources */,
+				4E8AC3A53C0F439EAF9245F1 /* Montserrat-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventBooking/Pods-EventBooking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventBooking/Pods-EventBooking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventBooking/Pods-EventBooking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EventBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventBooking/Pods-EventBooking-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventBooking/Pods-EventBooking-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventBooking/Pods-EventBooking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-EventBooking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EventBooking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = EventBooking;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-EventBooking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EventBooking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = EventBooking;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EventBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EventBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
